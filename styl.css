@@ -7,6 +7,27 @@ body {
   padding: 20px;
 }
 
+header {
+  background: linear-gradient(to bottom right, #2b2b2b, #3d3d3d);
+  border: 2px double red;
+  margin: 20px auto;
+  padding: 100px;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+header img.profile-pic {
+  width: 80px; /* size */
+  height: 80px;
+  border-radius: 50%; /* makes it round */
+  object-fit: cover;
+  border: 2px solid white; /* optional border */
+  display: block;
+  margin: 0 auto 10px; /* center & space below */
+}
+
 /* Section Styling */
 section, .hero {
   background: linear-gradient(to bottom right, #2b2b2b, #3d3d3d);
