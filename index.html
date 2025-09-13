@@ -5,70 +5,79 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Error Boy | Portfolio</title>
-  <link rel="icon" href="portfolio.jpg" />
-  <link rel="stylesheet" href="styl.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="portfolio.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;500;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-
   <!-- Hero Section -->
-  <header>
-    <img src="portfolio.jpg" alt="Your Photo" class="profile-pic" />
-    <h1>Error Boy</h1>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <img src="portfolio.jpg" alt="Your Photo" class="profile-pic" />
+      <h1 class="glow">Error Boy</h1>
+      <p class="tagline">Web Developer | Designer | Gamer</p>
+    </div>
   </header>
 
   <!-- About Me Section -->
-  <section class="about">
-    <h2>About Me</h2>
+  <section class="about card">
+    <h2 class="section-title">About Me</h2>
     <p>
-      Hi, I'm a passionate <strong>web developer</strong> currently learning and improving every day. I'm confident in
-      my skills as a designer and developer, and I also specialize in creative <strong>logo design</strong>.
+      Hi, I'm a passionate <strong>web developer</strong> currently learning and improving every day.  
+      I love building cool websites and also specialize in <strong>creative logo design</strong>.
     </p>
   </section>
 
   <!-- Skills Section -->
-  <section class="skill">
-    <h2>Skills</h2>
-    <p>HTML | CSS | JavaScript | Logo Designing</p>
+  <section class="skills card">
+    <h2 class="section-title">Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Logo Designing</li>
+    </ul>
   </section>
 
   <!-- Project Section -->
-  <section class="project">
-    <h2>Project: Game UP (a gaming website)</h2>
-    <p>
-      I created this gaming website using only <strong>HTML, CSS, and JavaScript</strong> — a modern look.
-    </p>
-    <a href="https://game-up-drab.vercel.app/">View Project</a>
+  <section class="projects card">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-box">
+      <h3>Game UP (Gaming Website)</h3>
+      <p>Created using <strong>HTML, CSS, and JavaScript</strong> with a modern gaming look.</p>
+      <a href="https://errorboy928.github.io/Game-UP/" target="_blank" class="btn">View Project</a>
+    </div>
+
+    <div class="project-box">
+      <h3>Neon-Flying-Box</h3>
+      <p>A neon-style game built with <strong>pure HTML, CSS, and JavaScript</strong>. No game engine used.</p>
+      <a href="https://errorboy928.github.io/Neon-Flying-Box/" target="_blank" class="btn">View Project</a>
+    </div>
+
+    <div class="project-box">
+      <h3>Code with Error Boy</h3>
+      <p>I created this website(for those people who want to satart coding and programing) with <strong>HTML, CSS, and JavaScript</strong>.</p>
+      <a href="https://errorboy928.github.io/Code-with-Error-Boy/" target="_blank" class="btn">View Project</a>
+    </div>
   </section>
-  <section class="project">
-    <h2>Project: Neon-Flying-Box</h2>
-    <p>
-      iI developed this game using only <strong>HTML, CSS, and JavaScript</strong> _ no game engine involved.Just pure
-      website coding in neon style.
-    </p>
-    <a href="https://neon-flying-box.vercel.app/">View Project</a>
-  </section>
-  <section class="project">
-    <h2>Project: Code with Error Boy</h2>
-    <p>
-      I created this website for those people how want to learn coding and programing with <strong>HTML and Css</strong> from basic.
-    </p>
-    <a href="https://errorboy928.github.io/Code-with-Error-Boy/">View Project</a>
-  </section>
+
 
   <!-- Contact Section -->
-  <section class="contact">
-    <h2>Contact Me</h2>
+  <section class="contact card">
+    <h2 class="section-title">Contact Me</h2>
     <p>Email: <a href="mailto:boyerror928@gmail.com">boyerror928@gmail.com</a></p>
     <p>
-      <a href="https://github.com/ErrorBoy928" target="_blank" rel="noopener noreferrer">
-        Visit My GitHub Profile
-      </a>
+      <a href="https://github.com/ErrorBoy928" target="_blank" class="btn">GitHub Profile</a>
     </p>
   </section>
 
+  <footer>
+    <p>© 2025 Error Boy | All Rights Reserved</p>
+  </footer>
 </body>
 
-
 </html>
-
